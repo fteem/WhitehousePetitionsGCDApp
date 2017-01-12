@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8892CEB11E2592A700D145FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892CEB01E2592A700D145FC /* AppDelegate.swift */; };
+		8892CEB31E2592A700D145FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892CEB21E2592A700D145FC /* ViewController.swift */; };
+		8892CEB61E2592A700D145FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8892CEB41E2592A700D145FC /* Main.storyboard */; };
+		8892CEB81E2592A700D145FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8892CEB71E2592A700D145FC /* Assets.xcassets */; };
+		8892CEBB1E2592A700D145FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8892CEB91E2592A700D145FC /* LaunchScreen.storyboard */; };
+		8892CEC31E259A8D00D145FC /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892CEC21E259A8D00D145FC /* SwiftyJSON.swift */; };
+		8892CEC51E259CCD00D145FC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892CEC41E259CCD00D145FC /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8892CEAD1E2592A700D145FC /* WhitehousePetitionsGCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhitehousePetitionsGCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8892CEB01E2592A700D145FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8892CEB21E2592A700D145FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8892CEB51E2592A700D145FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8892CEB71E2592A700D145FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8892CEBA1E2592A700D145FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8892CEBC1E2592A700D145FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8892CEC21E259A8D00D145FC /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		8892CEC41E259CCD00D145FC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8892CEAA1E2592A700D145FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8892CEA41E2592A700D145FC = {
+			isa = PBXGroup;
+			children = (
+				8892CEAF1E2592A700D145FC /* WhitehousePetitionsGCD */,
+				8892CEAE1E2592A700D145FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8892CEAE1E2592A700D145FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8892CEAD1E2592A700D145FC /* WhitehousePetitionsGCD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8892CEAF1E2592A700D145FC /* WhitehousePetitionsGCD */ = {
+			isa = PBXGroup;
+			children = (
+				8892CEB01E2592A700D145FC /* AppDelegate.swift */,
+				8892CEC21E259A8D00D145FC /* SwiftyJSON.swift */,
+				8892CEB21E2592A700D145FC /* ViewController.swift */,
+				8892CEC41E259CCD00D145FC /* DetailViewController.swift */,
+				8892CEB41E2592A700D145FC /* Main.storyboard */,
+				8892CEB71E2592A700D145FC /* Assets.xcassets */,
+				8892CEB91E2592A700D145FC /* LaunchScreen.storyboard */,
+				8892CEBC1E2592A700D145FC /* Info.plist */,
+			);
+			name = WhitehousePetitionsGCD;
+			path = WhitehousePetitions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8892CEAC1E2592A700D145FC /* WhitehousePetitionsGCD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8892CEBF1E2592A700D145FC /* Build configuration list for PBXNativeTarget "WhitehousePetitionsGCD" */;
+			buildPhases = (
+				8892CEA91E2592A700D145FC /* Sources */,
+				8892CEAA1E2592A700D145FC /* Frameworks */,
+				8892CEAB1E2592A700D145FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhitehousePetitionsGCD;
+			productName = WhitehousePetitions;
+			productReference = 8892CEAD1E2592A700D145FC /* WhitehousePetitionsGCD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8892CEA51E2592A700D145FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Ilija Eftimov";
+				TargetAttributes = {
+					8892CEAC1E2592A700D145FC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8892CEA81E2592A700D145FC /* Build configuration list for PBXProject "WhitehousePetitionsGCD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8892CEA41E2592A700D145FC;
+			productRefGroup = 8892CEAE1E2592A700D145FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8892CEAC1E2592A700D145FC /* WhitehousePetitionsGCD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8892CEAB1E2592A700D145FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8892CEBB1E2592A700D145FC /* LaunchScreen.storyboard in Resources */,
+				8892CEB81E2592A700D145FC /* Assets.xcassets in Resources */,
+				8892CEB61E2592A700D145FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8892CEA91E2592A700D145FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8892CEC31E259A8D00D145FC /* SwiftyJSON.swift in Sources */,
+				8892CEB31E2592A700D145FC /* ViewController.swift in Sources */,
+				8892CEB11E2592A700D145FC /* AppDelegate.swift in Sources */,
+				8892CEC51E259CCD00D145FC /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8892CEB41E2592A700D145FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8892CEB51E2592A700D145FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8892CEB91E2592A700D145FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8892CEBA1E2592A700D145FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8892CEBD1E2592A700D145FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8892CEBE1E2592A700D145FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8892CEC01E2592A700D145FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WhitehousePetitions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ieftimov.WhitehousePetitionsGCD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8892CEC11E2592A700D145FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WhitehousePetitions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ieftimov.WhitehousePetitionsGCD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8892CEA81E2592A700D145FC /* Build configuration list for PBXProject "WhitehousePetitionsGCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8892CEBD1E2592A700D145FC /* Debug */,
+				8892CEBE1E2592A700D145FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8892CEBF1E2592A700D145FC /* Build configuration list for PBXNativeTarget "WhitehousePetitionsGCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8892CEC01E2592A700D145FC /* Debug */,
+				8892CEC11E2592A700D145FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8892CEA51E2592A700D145FC /* Project object */;
+}
